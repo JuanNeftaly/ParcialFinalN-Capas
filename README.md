@@ -7,6 +7,14 @@ Este repositorio contiene un proyecto para evaluar y practicar los conceptos de 
 - **Nombre del estudiante 2**: [Juan Neftaly Castellanos Hernandez] - [00182222]
 - Sección: [02]
 ---
+## Usuarios 
+Admin
+- correo: admin@example.com
+- password: adminuser
+
+User
+- correo: user@example.com
+- normaluser
 
 ## Sistema de Soporte Técnico
 
