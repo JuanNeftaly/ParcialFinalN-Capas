@@ -16,6 +16,11 @@ User
 - correo: user@example.com
 - normaluser
 
+## Ejecutar Docker 
+ejecutar: 
+- docker build ParcialFinalN-Capas . 
+- docker run -u -p 8080:8080 ParcialFinalN-Capas
+
 ## Sistema de Soporte Técnico
 
 ### Descripción
