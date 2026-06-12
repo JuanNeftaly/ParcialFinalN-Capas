@@ -1,6 +1,6 @@
 # Desarrollo y Roles de Seguridad
 
-El desarrollo de este parcial está dividido en las siguientes etapas principales para asegurar los endpoints existentes.
+El desarrollo de este parcial está dividido en las siguientes etapas principales para asegurar los endpoints existentes osi osi
 
 ## Etapas del Desarrollo
 
