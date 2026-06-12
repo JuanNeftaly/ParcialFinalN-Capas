@@ -1,0 +1,14 @@
+site_name: Taller MkDocs - Guía de Teyvat
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+nav:
+  - Inicio: index.md
+  - Personajes: personajes.md
+  - Recursos: recursos.md
