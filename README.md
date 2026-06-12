@@ -7,37 +7,33 @@ Este repositorio contiene un proyecto para evaluar y practicar los conceptos de 
 - **Nombre del estudiante 2**: [Juan Neftaly Castellanos Hernandez] - [00182222]
 - Sección: [02]
 ---
-## Usuarios 
-Admin
-- correo: admin@example.com
-- password: adminuser
+## Usuarios de Prueba
+### Admin / Tech
+- **Correo:** `admin@example.com`
+- **Password:** `adminuser`
 
-User
-- correo: user@example.com
-- normaluser
+### User
+- **Correo:** `user@example.com`
+- **Password:** `normaluser`
 
 ## Ejecutar Docker 
-ejecutar: 
-- docker build ParcialFinalN-Capas . 
-- docker run -u -p 8080:8080 ParcialFinalN-Capas
+Ejecutar: 
+- `docker build -t ParcialFinalN-Capas .`
+- `docker run -p 8080:8080 ParcialFinalN-Capas`
+- `docker-compose up -d` (Para levantar con base de datos)
 
 ## Sistema de Soporte Técnico
 
 ### Descripción
-Simula un sistema donde los usuarios pueden crear solicitudes de soporte (tickets) y los técnicos pueden gestionarlas. Actualmente **no tiene seguridad implementada**.
+Simula un sistema donde los usuarios pueden crear solicitudes de soporte (tickets) y los técnicos pueden gestionarlas. El sistema cuenta con autenticación y autorización mediante Spring Security y JWT.
 
-Su tarea es **agregar autenticación y autorización** utilizando **Spring Security + JWT**, y contenerizar la aplicación con Docker.
-
-### Requisitos generales
-
-- Proyecto funcional al ser clonado y ejecutado con Docker.
-- Uso de PostgreSQL (ya incluido en docker-compose).
-- Seguridad implementada con JWT.
-- Roles `USER` y `TECH`.
-- Acceso restringido según el rol del usuario.
-- Evidencia de funcionamiento (colección de Postman/Insomnia/Bruno o capturas de pantalla).
-
-**Nota: El proyecto ya tiene una estructura básica de Spring Boot con endpoints funcionales para manejar tickets. No es necesario modificar la lógica de negocio, solo agregar seguridad. Ademas se inclye un postman collection para probar los endpoints. **
+### Características implementadas
+- Autenticación mediante JWT.
+- Roles de usuario: `USER` y `TECH`.
+- Acceso restringido según el rol.
+- Contenerización con Docker.
+- Documentación con MkDocs.
+- Colección de Postman incluida para pruebas.
 
 _Si van a crear mas endpoints como el login o registrarse recuerden actualizar postman/insomnia/bruno collection_
 

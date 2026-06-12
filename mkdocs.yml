@@ -1,4 +1,4 @@
-site_name: Taller MkDocs - Guía de Teyvat
+site_name: Documentación Parcial Final N-Capas
 theme:
   name: material
 
@@ -6,9 +6,10 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - Inicio: index.md
-  - Personajes: personajes.md
-  - Recursos: recursos.md
+  - Desarrollo y Roles: desarrollo.md
+  - Despliegue y Pruebas: despliegue.md
